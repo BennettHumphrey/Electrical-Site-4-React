@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'
-import Home from './Components/Home/Home';
-import Contact from './Components/Contact';
+import Home from './Pages/Home/Home';
+import Contact from './Pages/Contact';
 
 
 
