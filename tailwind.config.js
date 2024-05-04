@@ -15,16 +15,14 @@ export default {
     },
     extend: {
       colors: {
-        'main': '	#f2f2f2',
-        'accent': '#606c94',
-        'contact': 'red',
-        'menu': '#123196',
-        'text': '#333333',
-        'text-light': '#f7f7f7',
-        'dropdown': '#242D37',
+        'main': '	#2b2c36', //Indigo
+        'accent': '#ffa633', //Orange
+        'menu': '#cc8428', //Accent but a bit darker
+        'text': 'black',
+        'text-light': '#f2f2f2', //Essentially white
         'line': 'black',
-        'footer-bg': '#242D37',
-        'footer-text': 'grey',
+        // 'footer-bg': '#242D37',
+        // 'footer-text': 'grey',
       },
       height: {
         'screen-width': '100vw'

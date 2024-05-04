@@ -1,11 +1,12 @@
 import React from 'react'
-import Hero from './Hero'
+import Hero from './Hero/Hero'
+import Spacer from './Spacer'
 
 const Home = () => {
   return (
-    <div>
-      Home
+    <div className='h-full'>
       <Hero  />
+      <Spacer  />
     </div>
   )
 }
