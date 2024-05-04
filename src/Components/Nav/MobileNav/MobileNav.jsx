@@ -37,7 +37,7 @@ const MobileNav = ({ navOptions }) => {
                 >
                     <div
                         style={{width: 'calc(300px - 100px)'}}
-                        className='relative left-[100px] h-full' >
+                        className='relative left-[100px] h-full z-20' >
                         <div className='absolute z-30 top-0 left-[169px]' 
                             onClick={() => setMobileNavOpen(false)}>
                             <CloseButton size={'30px'} />

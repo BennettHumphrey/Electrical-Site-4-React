@@ -1,10 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { companyName } from '../../../globalStore';
 
 const MobileNavContent = ({ setMobileNavOpen, navOptions }) => {
   return (
-      <div className='pl-3 pt-2'>
+      <div className='pl-[210px] bg-menu h-screen w-[400px] relative -left-[200px] pt-2'>
         <div className='flex flex-col gap-2'>
           <h2 className='text-text-light tracking-wide font-bold text-2xl'>
             {companyName}
