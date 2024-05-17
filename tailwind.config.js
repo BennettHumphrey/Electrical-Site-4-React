@@ -15,12 +15,13 @@ export default {
     },
     extend: {
       colors: {
-        'main': '	#2b2c36', //Indigo
-        'accent': '#ffa633', //Orange
-        'menu': '#cc8428', //Accent but a bit darker
+        'main': '#2b2c36', //Dark Indigo
+        'accent': '#8bc34a', //Light Green
+        'menu': '#669036', //Accent but a bit darker
         'text': 'black',
-        'text-light': '#f2f2f2', //Essentially white
+        'text-light': 'white',
         'line': 'black',
+        'footer-icon': '#fee5b5'
         // 'footer-bg': '#242D37',
         // 'footer-text': 'grey',
       },

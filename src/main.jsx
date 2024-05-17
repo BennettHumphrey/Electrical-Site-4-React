@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'
 import Home from './Pages/Home/Home';
-import Contact from './Components/Contact';
 import Nav from './Components/Nav/Nav';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import Projects from './Pages/Projects/Projects';
+import { projectsShowcase } from './globalStore';
+import Contact from './Pages/Contact/Contact';
 
 
 
@@ -29,6 +31,13 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
+      {
+        path: '/projects/:projectId',
+        element: <Projects  />,
+        loader: ({ params }) => {
+          return projectsShowcase[params.projectId]
+        }
+      }
     ],
   },
 ]);

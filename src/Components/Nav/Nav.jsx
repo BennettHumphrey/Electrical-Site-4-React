@@ -4,6 +4,7 @@ import MobileNav from './MobileNav/MobileNav'
 import DesktopNav from './DesktopNav'
 import { Outlet } from 'react-router-dom'
 import { MaterialSymbolsHome, MdiContact } from './NavIcons'
+import Footer from '../Footer/Footer'
 
 const Nav = () => {
 
@@ -24,7 +25,7 @@ const Nav = () => {
 
   return (
     <div>
-      <div className='sticky top-0 w-full z-10'>
+      <div className='sticky top-0 w-full z-50'>
           {width <= 976 ?
           <MobileNav navOptions={navOptions} /> :
           <DesktopNav navOptions={navOptions} /> }
@@ -32,6 +33,7 @@ const Nav = () => {
       <div>
         <Outlet  />
       </div>
+      <Footer  />
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Carousel from './Carousel'
 import { heroSlides } from './heroSlides'
 import defaultStyles from './Carousel.module.css';
@@ -50,17 +50,17 @@ const Hero = () => {
   const scrollPositionModifier = windowWidth/1000
 
   return (
-    <div className='relative'>
+    <div className='relative h-full pointer-events-none'>
 
         {/* Hero Carousel */}
 
-        <div ref={ref} className='relative h-screen z-[-4]'>
+        <div ref={ref} className='relative h-full z-[0] pointer-events-auto'>
           <Carousel  data={heroSlides} options={carouselOptions} styles={defaultStyles} />
         </div>
 
         {/* Moving Triangles */}
 
-        <div className='z-[-2] h-full w-full absolute left-0 bottom-0 overflow-hidden top-0.5' >
+        <div className='z-[1] h-full w-full absolute left-0 bottom-0 overflow-hidden top-0.5' >
 
           <motion.div 
             className='absolute bottom-0' 
