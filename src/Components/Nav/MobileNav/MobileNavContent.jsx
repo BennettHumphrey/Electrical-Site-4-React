@@ -16,13 +16,21 @@ const MobileNavContent = ({ setMobileNavOpen, navOptions }) => {
           {navOptions.map((route, index) => (
             <div key={index} className='flex gap-2 items-center'>
               {route.icon}
-              <Link
-                to={route.path}
-                onClick={() => setMobileNavOpen(false)}
+              {route.path.startsWith('#') ? (
+              <a href={route.path}
+              onClick={() => setMobileNavOpen(false)}
                 className='text-text-light'
               >
-                {route.title}
+                 {route.title}
+              </a>
+            ) : (
+              <Link to={route.path}
+              onClick={() => setMobileNavOpen(false)}
+                className='text-text-light'
+              >
+                 {route.title}
               </Link>
+            )}
             </div>
           ))}
         </div>

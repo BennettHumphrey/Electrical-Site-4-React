@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import { whyWorkWithUsData } from '../../globalStore'
 import { motion, useInView } from 'framer-motion'
+import { Link } from 'react-router-dom';
 
 const WhyWorkWithUs = () => {
 
@@ -38,10 +39,12 @@ const WhyWorkWithUs = () => {
                             transition: 'all cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s 0.2s'
                         }}
                         className='mt-5'>
-                        <span className='bg-accent relative inline-block rounded-xl p-2.5 font-semibold
-                                            hover:cursor-pointer hover:scale-[1.15] duration-500'>
-                            {whyWorkWithUsData.buttonText}
-                        </span>
+                        <Link to={'/contact'}>
+                            <span className='bg-accent relative inline-block rounded-xl p-2.5 font-semibold
+                                                hover:cursor-pointer hover:scale-[1.15] duration-500'>
+                                {whyWorkWithUsData.buttonText}
+                            </span>
+                        </Link>
                     </motion.div>
                 </div>
             </div>

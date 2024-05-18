@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const ProjectsShowcase = () => {
   return (
-    <div className='flex flex-col sm:flex-row flex-wrap'>
+    <div className='flex flex-col sm:flex-row flex-wrap' id='projects' >
         {projectsShowcase.map((project, index) => (
             
             <Link key={index}
@@ -16,7 +16,7 @@ const ProjectsShowcase = () => {
                 <div className='bg-[#ffffff01] duration-300 group-hover:bg-[#ffffffAA] w-full h-full
                                     flex flex-col justify-center gap-5'>
                     <h4 className='relative translate-x-[110vw] opacity-0 duration-500
-                                    group-hover:translate-x-0 group-hover:opacity-100
+                                    group-hover:translate-x-0 font-semibold group-hover:opacity-100
                                     px-5 text-2xl'>
                         {project.imageTitle}
                     </h4>

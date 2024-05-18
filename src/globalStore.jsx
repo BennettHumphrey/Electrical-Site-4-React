@@ -1,8 +1,30 @@
+import { MaterialSymbolsConstruction, MaterialSymbolsHome, MdiContact } from "./Components/Nav/NavIcons"
 
 
 
 
 export const companyName = "Fake Electric"
+
+
+export const navOptions = [
+    {
+        title: "Home",
+        icon: <MaterialSymbolsHome/>,
+        path: "/"
+    },
+    {
+        title: "Projects",
+        icon: <MaterialSymbolsConstruction/>,
+        path: "#projects"
+    },
+    {
+        title: "Contact",
+        icon: <MdiContact/>,
+        path: "/contact"
+    },
+]
+
+
 
 export const aboutData = {
     briefAbout: {
