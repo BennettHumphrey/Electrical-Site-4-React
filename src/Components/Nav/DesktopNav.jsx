@@ -5,7 +5,9 @@ const DesktopNav = ({ navOptions }) => {
   return (
     <div className='bg-menu h-[42px] flex items-center justify-between text-text-light px-10'>
       <div>
-        <p className='font-bold tracking-widest'>Logo</p>
+        <Link to={'/'}>
+          <p className='font-bold tracking-widest'>Logo</p>
+        </Link>
       </div>
       <div className='flex gap-16'>
         {navOptions.map((route, index) => (

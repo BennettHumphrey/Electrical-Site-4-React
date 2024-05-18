@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
         <a 
             target='_blank'
-            href='https://bennetthumphrey.com/#projectShowcase'
+            href='https://bennetthumphrey.com'
             className='h-10 w-4/5 m-auto md:text-xl text-menu hover:text-accent hover:scale-125 duration-300 hover:cursor-pointer'>
                 Site by BennettHumphrey.com
         </a>

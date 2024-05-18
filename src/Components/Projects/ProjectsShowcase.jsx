@@ -17,10 +17,10 @@ const ProjectsShowcase = () => {
                                     flex flex-col justify-center gap-5'>
                     <h4 className='relative translate-x-[110vw] opacity-0 duration-500
                                     group-hover:translate-x-0 font-semibold group-hover:opacity-100
-                                    px-5 text-2xl'>
+                                    px-5 text-4xl'>
                         {project.imageTitle}
                     </h4>
-                    <p className='relative translate-x-[110vw] opacity-0 duration-300
+                    <p className='relative text-2xl translate-x-[110vw] opacity-0 duration-300
                                     group-hover:translate-x-0 group-hover:opacity-100 delay-200
                                     px-5'>
                         {project.imageBody}

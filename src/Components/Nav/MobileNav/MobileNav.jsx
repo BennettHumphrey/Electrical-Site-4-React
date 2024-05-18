@@ -23,7 +23,9 @@ const MobileNav = ({ navOptions }) => {
     <div className='h-[42px] bg-menu z-10' >
         <div className='pt-1 pl-2 px-8 flex justify-between items-center' >
             <MobileNavButton setMobileNavOpen={setMobileNavOpen} size="35px" />
-            <p className='font-bold tracking-widest text-text-light'>Logo</p>
+            <Link to={'/'}>
+                <p className='font-bold tracking-widest text-text-light'>Logo</p>
+            </Link>
         </div>
         {/* Slide-in */}
         <AnimatePresence>

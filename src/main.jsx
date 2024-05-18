@@ -17,11 +17,6 @@ import Contact from './Pages/Contact/Contact';
 // Look into pnpm/yarn
 
 
-// Link for Start Project part
-// Nav home link fucked
-// Text thin in projects section
-// Desktop nav logo not clickable
-
 
 
 const router = createBrowserRouter([

@@ -15,7 +15,7 @@ export const navOptions = [
     {
         title: "Projects",
         icon: <MaterialSymbolsConstruction/>,
-        path: "#projects"
+        path: "/#projects"
     },
     {
         title: "Contact",
