@@ -1,4 +1,4 @@
-import { MaterialSymbolsConstruction, MaterialSymbolsHome, MdiContact } from "./Components/Nav/NavIcons"
+import { Apartment, House, MaterialSymbolsConstruction, MaterialSymbolsHome, MdiContact } from "./Components/Nav/NavIcons"
 
 
 
@@ -21,6 +21,16 @@ export const navOptions = [
         title: "Contact",
         icon: <MdiContact/>,
         path: "/contact"
+    },
+    {
+        title: "Residential",
+        icon: <House/>,
+        path: "/subPage/residential"
+    },
+    {
+        title: "Commercial",
+        icon:<Apartment/>,
+        path: "/subPage/commercial"
     },
 ]
 

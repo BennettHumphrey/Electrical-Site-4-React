@@ -2,7 +2,7 @@ import React from 'react'
 import { useLoaderData } from 'react-router-dom';
 import { useWindowSize } from 'react-use';
 
-const SubPage = () => {
+const Projects = () => {
     
     const data = useLoaderData()
     const { width } = useWindowSize()
@@ -42,4 +42,4 @@ const SubPage = () => {
   )
 }
 
-export default SubPage
+export default Projects

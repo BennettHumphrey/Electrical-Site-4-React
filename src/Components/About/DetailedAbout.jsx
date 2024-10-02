@@ -19,7 +19,7 @@ const DetailedAbout = () => {
     <div 
         
         ref={ref}
-        className='flex flex-col md:flex-row bg-text-light py-5'>
+        className='flex flex-col md:flex-row bg-text-light'>
         {aboutData.detailedAbout.map((section, index) => (
             <motion.div 
               style={{
@@ -27,7 +27,7 @@ const DetailedAbout = () => {
                 opacity: isInView ? 1 : 0,
                 transition: `all cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s 0.${index*1}s`
               }}
-              key={index} className='flex flex-col px-5 py-10 text-center gap-5'>
+              key={index} className='flex flex-col px-5 py-10 md:py-16 text-center gap-5 even:bg-gray-200'>
                 <h2 className='text-2xl font-bold'>
                     {section.title}
                 </h2>

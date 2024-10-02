@@ -24,9 +24,6 @@ export default {
         'footer-icon': '#fee5b5'
         // 'footer-bg': '#242D37',
         // 'footer-text': 'grey',
-      },
-      height: {
-        'screen-width': '100vw'
       }
   },
 },
