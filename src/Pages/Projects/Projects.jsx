@@ -28,7 +28,7 @@ const Projects = () => {
                     className='bg-cover w-[80vw] h-[40vw]
                                md:w-[40vw] md:h-[20vw]' />}
             </div>
-            <div className='p-5 flex flex-col gap-4 w-[40vw] lg:gap-6 xl:gap-10'>
+            <div className='p-5 flex flex-col gap-4 w-[80vw] md:w-[40vw] lg:gap-6 xl:gap-10'>
                 <h2 className='font-bold text-3xl tracking-wider lg:text-5xl xl:text-7xl'>
                     Project Details
                 </h2>

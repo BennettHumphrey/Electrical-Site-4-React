@@ -11,7 +11,7 @@ const Nav = () => {
   const { width } = useWindowSize()
 
   const location = useLocation()
-  console.log(JSON.stringify(location))
+  // console.log(JSON.stringify(location))
 
   return (
     <div>

@@ -36,7 +36,7 @@ const Footer = () => {
                         <div className='w-10 h-10'>
                             <BasilPhoneInOutline  />
                         </div>
-                        <p>Link text</p>
+                        <p>250-555-5555</p>
                     </div>
                     <div className='bg-slate-800 relative -top-[45%] left-[10%] w-[35vw] h-[35vw] z-0
                                     rounded-tl-[20px] rounded-br-[20px] max-w-[200px] max-h-[200px] md:w-[150px] md:h-[150px] md:-top-[50px]
@@ -50,7 +50,7 @@ const Footer = () => {
                         <div className='w-10 h-10'>
                             <IcOutlineEmail  />
                         </div>
-                        <p>Link text</p>
+                        <p>bennett<br/>humphrey98<br/>@gmail.com</p>
                     </div>
                     <div className='bg-slate-800 relative -top-[45%] left-[10%] w-[35vw] h-[35vw] z-0
                                     rounded-tl-[20px] rounded-br-[20px] max-w-[200px] max-h-[200px] md:w-[150px] md:h-[150px] md:-top-[50px]

@@ -18,7 +18,9 @@ const carouselOptions = {
 
 const Hero = () => {
 
-  const { ref } = useParallax({ translateY: [-25, 18] });
+  const windowWidth = useWindowSize().width
+  const windowHeight = useWindowSize().height
+  const { ref } = windowHeight > 520 ? useParallax({ translateY: [-25, 18] }) : useParallax({ translateY: [-16, 18] })
 
   const [scrollPosition, setScrollPosition] = useState(0)
 
@@ -36,7 +38,6 @@ const Hero = () => {
   // }, [scrollPosition])
 
 
-  const windowWidth = useWindowSize().width
 
   const triangleSizes = windowWidth/2
 

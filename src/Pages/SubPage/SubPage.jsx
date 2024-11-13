@@ -6,9 +6,9 @@ const SubPage = () => {
 
     const data = useLoaderData();
 
-  useEffect(() => {
-    console.log('data in SubPage: ', data)
-  }, [data])
+  // useEffect(() => {
+  //   console.log('data in SubPage: ', data)
+  // }, [data])
 
     
   return (
