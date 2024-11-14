@@ -9,7 +9,7 @@ const WhyWorkWithUs = () => {
     const isInView = useInView(ref, { once: true });
 
   return (
-    <div ref={ref} className='bg-[url("/imgs/Light-1200.webp")] bg-cover bg-center z-0
+    <div ref={ref} className='bg-[url("/imgs/Light-900.webp")] lg:bg-[url("/imgs/Light-1200.webp")] bg-cover bg-center z-0
                     w-full h-full'>
         <div className='w-full bg-[#00000040] h-full z-1'>
             <div className='relative flex flex-col justify-center h-[500px] px-[10vw] z-2 text-white py-12'>

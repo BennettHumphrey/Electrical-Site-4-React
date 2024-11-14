@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { MaterialSymbolsLightBolt } from './HeroIcons';
+import { useWindowSize } from 'react-use';
 
 //Import styles from parent
 
 const Carousel = ({ data, options, styles }) => {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+  const windowWidth = useWindowSize().width
   const [slideCounter, setSlideCounter] = useState(0);
 
     useEffect(() => {
@@ -55,6 +57,7 @@ const Carousel = ({ data, options, styles }) => {
 //   <img className={`${styles.img}`} alt={slide.title} src={slide[0]} />
 // </div>
 
+
   return (
 
     <div className={`${styles.slideshowContainer}`}>
@@ -79,7 +82,7 @@ const Carousel = ({ data, options, styles }) => {
             index === activeSlideIndex ? styles.slidesActive : styles.slidesInactive
           }`}
         >
-          {options.img && <img className={`${styles.img}`} alt={slide.title} src={slide.img} />}
+          {options.img && <img className={`${styles.img}`} alt={slide.title} src={windowWidth > 1000 ? slide.img : slide.tabletImg } />}
           <div className={`${styles.overlay}`}>
             <div className={`${styles.icon}`} >
               {slide.svg}

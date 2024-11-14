@@ -5,7 +5,8 @@ const Contact = () => {
   return (
     <>
       <div className='
-      bg-[url(/imgs/Scaffolding-1200.webp)] 
+      bg-[url(/imgs/Scaffolding-900.webp)] 
+      lg:bg-[url(/imgs/Scaffolding-1200.webp)] 
       h-full w-full bg-cover pb-10 sm:pb-16' >
         <div className='w-[95%] sm:w-[80vw] sm:p-12 max-w-[1000px] bg-white/80 relative m-auto
           p-4 top-8 pb-16 rounded-md' >
