@@ -15,13 +15,13 @@ const Footer = () => {
                     {footerData.body}
                 </p>
                 <div className='fill-accent flex gap-5 justify-start'>
-                    <a className='w-10 h-10 duration-500 hover:fill-text-light hover:scale-110 hover:cursor-pointer'>
+                    <a href='#' aria-label='Facebook link' className='w-10 h-10 duration-500 hover:fill-text-light hover:scale-110 hover:cursor-pointer'>
                         <FaFacebookOfficial  />
                     </a>
-                    <a href='https://www.instagram.com/bennett.humphrey/' target='_blank' className='w-10 h-10 duration-500 hover:fill-text-light hover:scale-110 hover:cursor-pointer'>
+                    <a aria-label='Instagram link' href='https://www.instagram.com/bennett.humphrey/' target='_blank' className='w-10 h-10 duration-500 hover:fill-text-light hover:scale-110 hover:cursor-pointer'>
                         <FaInstagram  />
                     </a>
-                    <a className='w-10 h-10 duration-500 hover:fill-text-light hover:scale-110 hover:cursor-pointer'>
+                    <a href='#' aria-label='LinkedIn Link' className='w-10 h-10 duration-500 hover:fill-text-light hover:scale-110 hover:cursor-pointer'>
                         <FaLinkedinSquare  />
                     </a>
                 </div>
@@ -61,7 +61,7 @@ const Footer = () => {
         <a 
             target='_blank'
             href='https://bennetthumphrey.com'
-            className='h-10 w-4/5 m-auto md:text-xl text-menu hover:text-accent hover:scale-125 duration-300 hover:cursor-pointer'>
+            className='h-10 w-4/5 m-auto md:text-xl text-orange-400 hover:text-accent hover:scale-125 duration-300 hover:cursor-pointer'>
                 Site by BennettHumphrey.com
         </a>
     </div>

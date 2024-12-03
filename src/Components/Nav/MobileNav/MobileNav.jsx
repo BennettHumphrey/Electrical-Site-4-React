@@ -25,7 +25,7 @@ const MobileNav = ({ navOptions }) => {
         <div className='pt-1 pl-2 px-8 flex justify-between items-center' >
             <MobileNavButton setMobileNavOpen={setMobileNavOpen} size="35px" />
             <Link to={'/'}>
-                <p className='font-bold tracking-widest text-text-light'>Logo</p>
+                <p className='font-bold tracking-widest text-text-light text-[19px]'>Logo</p>
             </Link>
         </div>
         {/* Slide-in */}

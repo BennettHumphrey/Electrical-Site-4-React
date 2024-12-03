@@ -17,7 +17,7 @@ export default {
     extend: {
       colors: {
         'main': '#2b2c36', //Dark Indigo
-        'accent': '#8bc34a', //Light Green
+        'accent': '#597733', //Light Green
         'menu': '#669036', //Accent but a bit darker
         'text': 'black',
         'text-light': 'white',

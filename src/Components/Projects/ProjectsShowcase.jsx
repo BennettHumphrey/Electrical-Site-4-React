@@ -15,11 +15,11 @@ const ProjectsShowcase = () => {
                 
                 <div className='bg-[#ffffff69] md:bg-[#ffffff01] duration-300 group-hover:bg-[#ffffffAA] w-full h-full
                                     flex flex-col justify-center gap-5'>
-                    <h4 className='relative md:translate-x-[110vw] md:opacity-0 duration-500
+                    <h3 className='relative md:translate-x-[110vw] md:opacity-0 duration-500
                                     group-hover:translate-x-0 font-semibold group-hover:opacity-100
                                     px-5 text-4xl underline'>
                         {project.imageTitle}
-                    </h4>
+                    </h3>
                     {/* <p className='relative text-2xl md:translate-x-[110vw] md:opacity-0 duration-300
                                     group-hover:translate-x-0 group-hover:opacity-100 delay-200
                                     px-5'>
